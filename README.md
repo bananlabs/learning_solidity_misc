@@ -16,6 +16,14 @@
 </pre>
 </div>
 
+## Code Snippets List
+
+* d - ERC165-standard
+* f - ping.sol
+-----------------------------------------------------------------------------
+'d' is for directory. <br /> 'f' is for file. <br />
+note: use Remix IDE to run the code. 
+
 -----------------------------------------------------------------------------
 
 :banana: @bananlabs :monkey:
