@@ -18,7 +18,7 @@
 
 ## Code Snippets List
 
-* [d] ERC165-standard
+* [d] [ERC165-standard](https://github.com/bananlabs/learning_solidity_misc/tree/main/ERC165-standard)
 * [f] ping.sol
 * [f] rand-name.sol
 -----------------------------------------------------------------------------
