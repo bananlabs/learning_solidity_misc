@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 // take a name as input and generate a random number 
 contract RandName {
-    // a number with 16 digits i total will be generate
+    // a number with 16 digits in total will be generate
     uint totalDigits = 16;
     // we need assure after the modulus operation that 
     // we will get a 16 digit number
