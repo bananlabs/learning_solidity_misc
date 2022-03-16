@@ -18,8 +18,9 @@
 
 ## Code Snippets List
 
-* d - ERC165-standard
-* f - ping.sol
+* [d] ERC165-standard
+* [f] ping.sol
+* [f] rand-name.sol
 -----------------------------------------------------------------------------
 'd' is for directory. <br /> 'f' is for file. <br />
 note: use Remix IDE to run the code. 
