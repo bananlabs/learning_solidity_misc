@@ -9,5 +9,9 @@ contract RandName {
     // we will get a 16 digit number
     uint digitModulus = 10 ** totalDigits;
 
-    
+    // generate a random ID from a person's name
+    function _genereateRandomId(string memory _name) public view returns (uint){
+        uint rand = uint(keccak256(abi.encodePacked(_name)));
+        return rand % digitModulus;
+    }
 }
