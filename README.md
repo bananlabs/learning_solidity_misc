@@ -24,7 +24,7 @@
 * [f] [rand-name-v2.sol](https://github.com/bananlabs/learning_solidity_misc/blob/main/rand-name-v2.sol)
 -----------------------------------------------------------------------------
 'd' is for directory. <br /> 'f' is for file. <br />
-note: use Remix IDE to run the code. 
+note: use [Remix IDE](https://remix.ethereum.org/) to run the code. 
 
 -----------------------------------------------------------------------------
 
