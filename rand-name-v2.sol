@@ -27,9 +27,11 @@ contract RandNameTwo {
     }
 
     function addingName(string memory _name) public {
-        uint256 _myID = _genereateRandomId(_name);
-        myName.push(Names(_myID, _name));
-        nameToRandomId[_name] = _myID;
+        uint256 myID = _genereateRandomId(_name);
+        // insert a new name to the list
+        myName.push(Names(myID, _name));
+        // get the random id from the name
+        nameToRandomId[_name] = myID;
     }
 
 }
