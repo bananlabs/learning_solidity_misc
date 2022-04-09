@@ -23,4 +23,10 @@ contract Rogue {
         vault.deposit{value: 0.5 ether}();
         vault.withdraw();
     }
+
+    /// @notice helper function to check contract balance
+    /// @return Return the current value of the balance
+    function getBalance() public view returns (uint) {
+        return address(this).balance;
+    }
 }
