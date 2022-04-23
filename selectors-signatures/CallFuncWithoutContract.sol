@@ -22,5 +22,10 @@ contract CallFunctionWithoutContract {
          return (bytes4(returnData), success);
     }
 
-    
+    function callTransferFunctionDirectly(address someAddress, uint256 amount) public returns(bytes4, bool){
+        (bool success, bytes memory returnData) = s_selectorsAndSignaturesAddress.call(
+            abi.encodeWithSignature("transfer(address, uint256)", someAddress, amount)
+        );
+        return (bytes4(returnData), success);
+    }
 }
