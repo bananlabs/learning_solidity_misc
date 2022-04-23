@@ -7,4 +7,11 @@ contract CallFunctionWithoutContract {
     constructor(address selectorsAndSignaturesAddress){
         s_selectorsAndSignaturesAddress = selectorsAndSignaturesAddress;
     }
+
+    function callFunctionDirectly(bytes calldata callData) public returns(bytes4, bool){
+        (bool success, bytes memory returnData) = s_selectorsAndSignaturesAddress.call(
+            abi.encodeWithSignature("getSelectorThree(bytes)", callData);
+        );
+        return (bytes4(returnData), success);
+    }
 }
