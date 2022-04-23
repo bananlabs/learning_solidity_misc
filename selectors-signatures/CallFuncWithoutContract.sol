@@ -10,8 +10,17 @@ contract CallFunctionWithoutContract {
 
     function callFunctionDirectly(bytes calldata callData) public returns(bytes4, bool){
         (bool success, bytes memory returnData) = s_selectorsAndSignaturesAddress.call(
-            abi.encodeWithSignature("getSelectorThree(bytes)", callData);
+            abi.encodeWithSignature("getSelectorThree(bytes)", callData)
         );
         return (bytes4(returnData), success);
     }
+
+    function staticCallFunctionDirectly() public view returns(bytes4, bool){
+         (bool success, bytes memory returnData) = s_selectorsAndSignaturesAddress.staticcall(
+             abi.encodeWithSignature("getSelectorOne()")
+         );
+         return (bytes4(returnData), success);
+    }
+
+    
 }
