@@ -1,3 +1,6 @@
 # ignore bin directory from remix ide
 bin/
 artifacts/
+node_modules/
+package-lock.json
+package.json
