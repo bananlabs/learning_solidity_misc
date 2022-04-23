@@ -29,7 +29,7 @@ note: use [Remix IDE](https://remix.ethereum.org/) to run the code.
 
 -----------------------------------------------------------------------------
 
-  🦍 @bananlabs :banana:
+  🦍 [@bananlabs](https://twitter.com/bananlabs) :banana:
 
 -----------------------------------------------------------------------------
                                                                                                                                                                                                                             
