@@ -22,13 +22,14 @@
 * [f] [ping.sol](https://github.com/bananlabs/learning_solidity_misc/blob/main/ping.sol)
 * [f] [rand-name.sol](https://github.com/bananlabs/learning_solidity_misc/blob/main/rand-name.sol)
 * [f] [rand-name-v2.sol](https://github.com/bananlabs/learning_solidity_misc/blob/main/rand-name-v2.sol)
+* [d] [selectors-signatures](https://github.com/bananlabs/learning_solidity_misc/tree/main/selectors-signatures)
 -----------------------------------------------------------------------------
 'd' is for directory. <br /> 'f' is for file. <br />
 note: use [Remix IDE](https://remix.ethereum.org/) to run the code. 
 
 -----------------------------------------------------------------------------
 
-:banana: @bananlabs :monkey:
+  🦍 [@bananlabs](https://twitter.com/bananlabs) :banana:
 
 -----------------------------------------------------------------------------
                                                                                                                                                                                                                             
