@@ -4,7 +4,7 @@ pragma solidity ^0.6.0;
 /// @title Example of overflow and underflow attacks
 /// @author @bananlabs
 /// @notice this contract is an example to simulate underflow and overflow
-/// in solidity. To fix this probem you have to use OpenZeppelin SafeMath
+/// in solidity. To fix this problem you have to use OpenZeppelin SafeMath
 
 contract OverUnderFlow {
     uint256 public zero_num = 0;
