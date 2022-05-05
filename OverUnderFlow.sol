@@ -7,8 +7,8 @@ pragma solidity ^0.8.0;
 /// in solidity. To fix this probem you have to use OpenZeppelin SafeMath
 
 contract OverUnderFlow {
-    uint256 zero_num = 0;
-    uint256 max_num = 2**(256-1);
+    uint256 public zero_num = 0;
+    uint256 public max_num = 2**(256-1);
 
     /// @notice add 1 to the maximum value of uint. After addition the variable
     // will be set to the zero.
